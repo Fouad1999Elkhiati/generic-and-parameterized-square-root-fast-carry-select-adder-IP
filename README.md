@@ -5,7 +5,7 @@ Introduction: This project is an initial project that falls within a larger proj
 
 Accordingly, digital signal processing algorithms are based in their entirety on many arithmetic operations, the most important of which are multiplication and addition. Addition operations are the simplest and first. Through this initial introduction, the first project I chose to work on was choosing the most important type of digital Adder that balances between high speed and low power consumption and low surface area in integrated chip.
 it is (Carry Select Adder)
-Here is a detailed explanation of the working principle of this digital adder and difference between fixed/ variable (square root paradigm) carry select block size in term of worst case propagation delay T(n) with n (number of bits for inputs A and B):
+Here is a detailed explanation of the working principle of this digital adder and difference between fixed/ variable (square root topology) carry select block size in term of worst case propagation delay T(n) with n (number of bits for inputs A and B):
 
 https://slideplayer.com/slide/9123351/
 
