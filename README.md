@@ -14,6 +14,18 @@ https://slideplayer.com/slide/4896714/ (begining from slide 89)
 Then I looked at the latest research conducted on this type of adders the first modified approach I found reduced space and energy consumption with speed improvements in observed in some research was implemented by replacing one of the two RCAs (ripple carry adders) in the conventional carry select adder block with binary to excess converter (BEC) to calculate 
 (A(k),A(k-1) ... A(k-m+1) + B(k),B(k-1) ... B(k-m+1) + 1) value instead of using another RCA with carry = 1.
 
+basic conventional block : 
+
+![image](https://github.com/Fouad1999Elkhiati/generic-square-root-carry-select-adder-IP/assets/160315289/daba019c-01a6-43a3-8ca6-9f9d589a739c)
+
+BEC based carry select adder block : 
+
+![image](https://github.com/Fouad1999Elkhiati/generic-square-root-carry-select-adder-IP/assets/160315289/63d93f0c-b96f-40dc-ae10-f6ac8389055f)
+with BEC structure is : 
+![image](https://github.com/Fouad1999Elkhiati/generic-square-root-carry-select-adder-IP/assets/160315289/1f1ce7dc-ce13-4efe-8e8b-ecbb614ccb29)
+
+
+
 see : https://www.researchgate.net/publication/334442229_Design_and_characterization_of_high_speed_carry_select_adder
 
 https://www.ijera.com/papers/Vol2_issue5/CQ25550554.pdf
