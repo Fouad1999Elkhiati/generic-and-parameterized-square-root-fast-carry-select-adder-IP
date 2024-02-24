@@ -11,4 +11,5 @@ https://slideplayer.com/slide/9123351/
 
 https://slideplayer.com/slide/4896714/ (begining from slide 89)
 
-Then I looked into the latest research
+Then I looked at the latest research conducted on this type of adders the first modified approach i found reduced space and energy consumption with comparable speed was implemented by
+replacing one of the two RCA (ripple carry adder) with binary to excess converter.
