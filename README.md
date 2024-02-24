@@ -22,4 +22,4 @@ The second modified version of carry select adder i found is an approach done wi
 so the new improved carry select adder block will look like this : 
 ![1-s2 0-S0167926021000353-gr5](https://github.com/Fouad1999Elkhiati/generic-square-root-carry-select-adder-IP/assets/160315289/fba82273-adb7-4503-b54a-170099fdb18e)
 
-
+the new [FAM based carry select adder] is faster than the previous versions and more area and power effecient
