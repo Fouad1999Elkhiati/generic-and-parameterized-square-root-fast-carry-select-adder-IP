@@ -11,5 +11,8 @@ https://slideplayer.com/slide/9123351/
 
 https://slideplayer.com/slide/4896714/ (begining from slide 89)
 
-Then I looked at the latest research conducted on this type of adders the first modified approach i found reduced space and energy consumption with comparable speed was implemented by
-replacing one of the two RCA (ripple carry adder) with binary to excess converter.
+Then I looked at the latest research conducted on this type of adders the first modified approach i found reduced space and energy consumption with speed improvements was implemented by replacing one of the two RCA (ripple carry adder) with binary to excess converter (BEC).
+
+see : https://www.researchgate.net/publication/334442229_Design_and_characterization_of_high_speed_carry_select_adder
+
+https://www.ijera.com/papers/Vol2_issue5/CQ25550554.pdf
