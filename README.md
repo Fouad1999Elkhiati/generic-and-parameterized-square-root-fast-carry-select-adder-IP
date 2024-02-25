@@ -45,6 +45,7 @@ https://www.ijera.com/papers/Vol2_issue5/CQ25550554.pdf
 The second modified version of carry select adder i found is an approach done with replacing both BEC unit and MUX 2n to n (multiplexer) with Fast Add-one and Multiplexing unit (FAM)
 so the new improved carry select adder block will look like this : 
 ![1-s2 0-S0167926021000353-gr5](https://github.com/Fouad1999Elkhiati/generic-square-root-carry-select-adder-IP/assets/160315289/fba82273-adb7-4503-b54a-170099fdb18e)
+
 in the paper below you will find more dztails about the study : https://www.sciencedirect.com/science/article/abs/pii/S0167926021000353
 the FAM based carry select adder show the fastest performance among all the designs.
 
