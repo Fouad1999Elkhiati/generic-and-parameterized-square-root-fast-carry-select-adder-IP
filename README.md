@@ -1,6 +1,18 @@
 # generic and parameterized square root fast carry select adder IP
 This is a github repository of a generic and parametrized nbit square-root-carry-select-adder IP (Intellectual Property) designed in VHDL and simulated in Modelsim and synthetized and implemented in Xilinx ISE 14.7 VM.
 
+Source files : 
+
+ADD1bit.vhdl
+
+ADDNbits.vhdl
+
+FAM_n_bit.vhdl
+
+carry_select_adder_block_nbit.vhdl
+
+carry_select_adder_nbit.vhdl
+
 # Context :
 Introduction: This project is an initial project that falls within a larger project, the aim of which is to delve into the world of digital electronic systems engineering (FPGA) with high efficiency and speed directed at processing digital signals through understanding the working principle of the most important types of primary electronic circuits and previous research in this field, and then working to implement the best designs that It has proven its efficiency in terms of speed, power consumption and space in integrated reconfigurable circuits (FPGA (field programming gate array)) in processing digital signals by implementing well-known mathematical processing algorithms in this academic field, and then there is an attempt to implement improved designs to further improve its performance.
 
