@@ -56,7 +56,7 @@ xc5vsx50tffg1136-1c FPGA and we will test our design in the same board.
 
 ![Capture d'écran 2024-02-24 201358](https://github.com/Fouad1999Elkhiati/generic-square-root-carry-select-adder-IP/assets/160315289/c738b0ed-581f-4289-ba4b-95ac27e4ea07)
 
-The results after testing FAM Based CSA are : 
+The results of delay and area after testing FAM Based CSA are : 
 
 ![image](https://github.com/Fouad1999Elkhiati/generic-square-root-carry-select-adder-IP/assets/160315289/5cb65ce7-08e1-44b1-9d43-5dfc4c78998a)
 Note that in the folder compare.zip you can find screen shots of generated reports, i run the simulation successfully but i found a problem generating .vcd file to complete Power consumption study using XPower tool.
