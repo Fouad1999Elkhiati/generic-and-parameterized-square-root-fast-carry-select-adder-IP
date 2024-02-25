@@ -56,6 +56,17 @@ The overal FAM based carry select adder square root topology will look like this
 
 In this paper : https://www.sciencedirect.com/science/article/abs/pii/S0167926021000353 you will find the details about the study that shows that the FAM based carry select adder is the fastest ever in term of speed and delay.
 
+here you can find some notes : 
+
+![1](https://github.com/Fouad1999Elkhiati/generic-parameterized-fast-square-root-carry-select-adder-IP/assets/160315289/b43ab6eb-da4a-4c85-9551-0a05d8ad5b5f)
+![2](https://github.com/Fouad1999Elkhiati/generic-parameterized-fast-square-root-carry-select-adder-IP/assets/160315289/d4b7e76a-362b-4531-aed3-16e4a9f50e41)
+![3](https://github.com/Fouad1999Elkhiati/generic-parameterized-fast-square-root-carry-select-adder-IP/assets/160315289/701acda6-7367-4259-b8ba-d2201dd415c3)
+![4](https://github.com/Fouad1999Elkhiati/generic-parameterized-fast-square-root-carry-select-adder-IP/assets/160315289/9a5ec529-fcba-4022-9593-006e0bdcff1a)
+
+
+
+
+
 # Comparative study :
 Now we going to compare the performance of the design FAM based carry select adder with some designs tested and synthesized in the paper : https://sci-hub.se/https://ieeexplore.ieee.org/document/8116819
 
