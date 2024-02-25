@@ -1,4 +1,4 @@
-# generic and parametrized square root fast carry select adder IP
+# generic and parameterized square root fast carry select adder IP
 This is a github repository of a generic and parametrized nbit square-root-carry-select-adder IP (Intellectual Property) designed in VHDL and simulated in Modelsim and synthetized and implemented in Xilinx ISE 14.7 VM.
 
 # Context :
