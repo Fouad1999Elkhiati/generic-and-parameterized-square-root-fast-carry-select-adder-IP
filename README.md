@@ -4,9 +4,13 @@ This is a github repository of a generic and parametrized nbit square-root-carry
 Source files : 
 
 ADD1bit.vhdl
+
 ADDNbits.vhdl
+
 FAM_n_bit.vhdl
+
 carry_select_adder_block_nbit.vhdl
+
 carry_select_adder_nbit.vhdl
 
 # Context :
