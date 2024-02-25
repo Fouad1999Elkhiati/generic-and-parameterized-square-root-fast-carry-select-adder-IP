@@ -42,3 +42,21 @@ The overal FAM based carry select adder square root topology will look like this
 ![image](https://github.com/Fouad1999Elkhiati/generic-square-root-carry-select-adder-IP/assets/160315289/1766531e-3860-4023-94f0-c6201f97e844)
 
 In this paper : https://www.sciencedirect.com/science/article/abs/pii/S0167926021000353 you will find the details about the study that shows that the FAM based carry select adder is the fastest ever in term of speed and delay.
+
+# Comparative study :
+Now we going to compare the performance of the design FAM based carry select adder with some designs tested and synthesized in the paper : https://sci-hub.se/https://ieeexplore.ieee.org/document/8116819
+
+this paper compare between : Conventional CSA, CBL CSA, BEC CSA, HSCG CSA, and Proposed design (proposed by the researchers : G. Kishore Kumar and N. Balaji) the designs are synthesized using Xilinx ISE 14.7 and implemented in the board Xilinx Virtex-5
+xc5vsx50tffg1136-1c FPGA and we will test our design in the same board.
+![Capture d'écran 2024-02-24 201235](https://github.com/Fouad1999Elkhiati/generic-square-root-carry-select-adder-IP/assets/160315289/bf827633-5f6a-46cc-b5bc-ec10d85c5018)
+
+![Capture d'écran 2024-02-24 201320](https://github.com/Fouad1999Elkhiati/generic-square-root-carry-select-adder-IP/assets/160315289/b6ee6b6d-0e87-4e79-ae1c-4e84a9504050)
+
+![Capture d'écran 2024-02-24 201339](https://github.com/Fouad1999Elkhiati/generic-square-root-carry-select-adder-IP/assets/160315289/d3b4be5b-cd53-4837-909e-2a207f773d60)
+
+![Capture d'écran 2024-02-24 201358](https://github.com/Fouad1999Elkhiati/generic-square-root-carry-select-adder-IP/assets/160315289/c738b0ed-581f-4289-ba4b-95ac27e4ea07)
+
+The results after testing FAM Based CSA are : 
+
+![image](https://github.com/Fouad1999Elkhiati/generic-square-root-carry-select-adder-IP/assets/160315289/5cb65ce7-08e1-44b1-9d43-5dfc4c78998a)
+
