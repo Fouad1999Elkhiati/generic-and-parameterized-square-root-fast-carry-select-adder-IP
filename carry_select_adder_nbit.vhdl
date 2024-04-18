@@ -73,7 +73,7 @@ package body carry_select_adder_package is
         return natural(floor(real(temp / 2.0)));
     end calculate_max_sqrt_size;
 	
-	function calculate_full_adder_size(n : in natural) return natural is
+    function calculate_full_adder_size(n : in natural) return natural is
     begin
 		if n = 1 then
 			return 2;
@@ -82,7 +82,7 @@ package body carry_select_adder_package is
 		end if;
     end calculate_full_adder_size;
 	
-	function calculate_internal_signal_size(n : in natural; m : in natural) return natural is
+    function calculate_internal_signal_size(n : in natural; m : in natural) return natural is
     begin
 		if n > 0 then
 			return m + 2;
@@ -91,7 +91,7 @@ package body carry_select_adder_package is
 		end if;
     end calculate_internal_signal_size;
 	
-	function calculate_max(n : in natural; m : in natural) return natural is
+    function calculate_max(n : in natural; m : in natural) return natural is
     begin
 		if n > m then
 			return n;
@@ -100,7 +100,7 @@ package body carry_select_adder_package is
 		end if;
     end calculate_max;
 	
-	function calculate_indx_1(n : in natural) return natural is
+    function calculate_indx_1(n : in natural) return natural is
     begin
 		if n = 0 then
 			return 0;
@@ -111,7 +111,7 @@ package body carry_select_adder_package is
 		end if;
     end calculate_indx_1;
 	
-	function calculate_indx_2(n : in natural) return natural is
+    function calculate_indx_2(n : in natural) return natural is
     begin
 		if n = 0 then
 			return 1;
@@ -122,7 +122,7 @@ package body carry_select_adder_package is
 		end if;
     end calculate_indx_2;
 	
-	function calculate_indx_3(n : in natural) return natural is
+    function calculate_indx_3(n : in natural) return natural is
     begin
 		if n = 0 then
 			return 1;
@@ -133,7 +133,7 @@ package body carry_select_adder_package is
 		end if;
     end calculate_indx_3;
 	
-	function calculate_indx_4(n : in natural) return natural is
+    function calculate_indx_4(n : in natural) return natural is
     begin
 		if n = 0 then
 			return 0;
@@ -144,7 +144,7 @@ package body carry_select_adder_package is
 		end if;
     end calculate_indx_4;
 	
-	function calculate_indx_5(n : in natural) return natural is
+    function calculate_indx_5(n : in natural) return natural is
     begin
 		if n = 0 then
 			return 0;
@@ -155,7 +155,7 @@ package body carry_select_adder_package is
 		end if;
     end calculate_indx_5;
 	
-	function calculate_indx_6(n : in natural) return integer is
+    function calculate_indx_6(n : in natural) return integer is
     begin
 		if n = 0 then
 			return 0;
@@ -166,7 +166,7 @@ package body carry_select_adder_package is
 		end if;
     end calculate_indx_6;
 	
-	function calculate_indx_7(n : in natural) return integer is
+    function calculate_indx_7(n : in natural) return integer is
     begin
 		if n = 0 then
 			return 1;
@@ -177,7 +177,7 @@ package body carry_select_adder_package is
 		end if;
     end calculate_indx_7;
 	
-	function calculate_indx_8(n : in natural) return natural is
+    function calculate_indx_8(n : in natural) return natural is
     begin
 		if n = 0 then
 			return 0;
@@ -188,7 +188,7 @@ package body carry_select_adder_package is
 		end if;
     end calculate_indx_8;
 	
-	function calculate_indx_9(n : in natural) return natural is
+    function calculate_indx_9(n : in natural) return natural is
     begin
 		if n = 0 then
 			return 0;
@@ -199,7 +199,7 @@ package body carry_select_adder_package is
 		end if;
     end calculate_indx_9;
 	
-	function calculate_indx_10(n : in natural) return natural is
+    function calculate_indx_10(n : in natural) return natural is
     begin
 		if n = 0 then
 			return 1;
@@ -210,7 +210,7 @@ package body carry_select_adder_package is
 		end if;
     end calculate_indx_10;
 	
-	function calculate_indx_11(n : in natural) return natural is
+    function calculate_indx_11(n : in natural) return natural is
     begin
 		if n = 0 then
 			return 1;
@@ -221,7 +221,7 @@ package body carry_select_adder_package is
 		end if;
     end calculate_indx_11;
 	
-	function calculate_indx_12(n : in natural) return natural is
+    function calculate_indx_12(n : in natural) return natural is
     begin
 		if n = 0 then
 			return 0;
@@ -234,7 +234,7 @@ package body carry_select_adder_package is
 	
 	-------
 	
-	function calculate_indx_13(n : in natural) return natural is
+    function calculate_indx_13(n : in natural) return natural is
     begin
 		if n = 0 then
 			return 0;
@@ -245,7 +245,7 @@ package body carry_select_adder_package is
 		end if;
     end calculate_indx_13;
 	
-	function calculate_indx_14(n : in natural) return integer is
+    function calculate_indx_14(n : in natural) return integer is
     begin
 		if n = 0 then
 			return 0;
@@ -256,7 +256,7 @@ package body carry_select_adder_package is
 		end if;
     end calculate_indx_14;
 	
-	function calculate_indx_15(n : in natural) return natural is
+    function calculate_indx_15(n : in natural) return natural is
     begin
 		if n = 0 then
 			return 1;
@@ -267,7 +267,7 @@ package body carry_select_adder_package is
 		end if;
     end calculate_indx_15;
 	
-	function calculate_indx_16(n : in natural) return natural is
+    function calculate_indx_16(n : in natural) return natural is
     begin
 		if n = 0 then
 			return 0;
@@ -278,32 +278,32 @@ package body carry_select_adder_package is
 		end if;
     end calculate_indx_16;
 	
-	function calculate_end_size(n : in natural; m : in natural) return natural is
-	begin
+    function calculate_end_size(n : in natural; m : in natural) return natural is
+    begin
 		if n = 0 then
 			return m - 1;
 		else
 			return m - 2;
 		end if;
-	end calculate_end_size;
+    end calculate_end_size;
 	
-	function calculate_inter_sign_1(n : in natural) return natural is
-	begin
+    function calculate_inter_sign_1(n : in natural) return natural is
+    begin
 		if n = 2 then
 			return 0;
 		else 
 			return 1;
 		end if;
-	end calculate_inter_sign_1;
+    end calculate_inter_sign_1;
 	
-	function calculate_inter_sign_2(n : in natural) return natural is
-	begin
+    function calculate_inter_sign_2(n : in natural) return natural is
+    begin
 		if n > 1 then
 			return 1;
 		else 
 			return 0;
 		end if;
-	end calculate_inter_sign_2;
+    end calculate_inter_sign_2;
 	
 end package body;
 
